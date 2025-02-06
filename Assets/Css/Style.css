@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Raleway' sans-serif;
+    src: url('/fonts/Raleway-VariableFont_wght.ttf');
+}
+
+/* Style du Cv*/
+body {
+    border: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #f4f4f4;
+}
+h1 h2 h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+}
+.texte {
+    text-align: center;
+    color: white;
+    width: 700px;
+    font-size: large; 
+    text-decoration: none;  
+}
+
+/* En-tête */
+.entete {
+    background: #17abb3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #17abb3;
+    width: auto;
+    margin: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 250px;
+    justify-content: space-evenly;
+}
+.entete, a {
+    color:#f4f4f4;
+}
+
+.photo {
+    cursor: zoom-in;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    border: 3px solid white;
+    box-shadow: 4px white;
+}
+.photo :hover {
+    transform: scaleX(1.1);
+}
+.etoiles {
+    float: right;
+    color:#17abb3;
+}
+.contacts img  {
+    filter: invert(1);
+    text-decoration: none;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+}
+.contacts {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    cursor:pointer;
+ }
+ 
+
+/* Contenu principal */
+main {
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    background: white;
+}
+
+/* Colonne de gauche */
+aside {
+    width: 20%;
+    background: #E9F7F8;
+    padding: 20px;
+}
+
+aside h3 {
+    color: #17abb3;
+    border-bottom: 2px solid #0099A8;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    list-style-type: square;
+    margin-bottom: 8px;
+}
+.resume {
+    text-indent: 30px;
+}
+
+/* Contenu principal */
+.formation p:hover, .experience p:hover, .stages p:hover {
+    background-color: #e0e0e0;
+    border-left: 1px #17abb3;
+    padding-left: 10px;
+}
+.stages p {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.formation p {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.experience p {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.centre {
+    width: 70%;
+    padding: 20px;
+    text-align: start;
+}
+.ennonce {
+    font-weight: bold;
+}
+.langues {
+    float: right;
+}
+.date {
+    float: right;
+    color:#0099A8;
+}
+.centre h3 {
+    color: #17abb3;
+    border-bottom: 2px solid #0099A8;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #17abb3;
+    color: white;
+    margin: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.reseaux {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px; 
+}
+
+
+.reseaux img {
+    filter: invert(1);
+    width: 30px;
+}
+.logo:hover {
+    opacity: 0.7;
+}
